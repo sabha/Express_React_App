@@ -18,6 +18,7 @@ const transformFacebookProfile = (profile) => {
         firstName: profile.first_name,
         lastName: profile.last_name,
         avatar: profile.picture.data.url,
+        email: profile.email
     }
 }
 
