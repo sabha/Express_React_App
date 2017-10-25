@@ -2,7 +2,7 @@ export const facebook = {
   clientID: '132061847445653',
   clientSecret: '0be67f686adae70f03dabc626d67bb2e',
   callbackURL: 'http://beeing.info/auth/facebook/callback',
-  profileFields: ['id', 'name', 'displayName', 'picture', 'email'],
+  profileFields: ['id', 'name', 'displayName', 'picture', 'email', 'first_name', 'last_name'],
 };
 
 export const google = {
