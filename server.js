@@ -15,6 +15,7 @@ import { facebook, google } from './config';
 const transformFacebookProfile = (profile) => {
     return {
         name: profile.name,
+        id: profile.id,
         firstName: profile.first_name,
         lastName: profile.last_name,
         avatar: profile.picture.data.url,
